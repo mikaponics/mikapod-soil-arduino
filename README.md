@@ -1,9 +1,7 @@
-# Mikapod Soil
-[![Documentation Status](https://readthedocs.org/projects/mikapod-soil/badge/?version=latest)](https://mikapod-soil.readthedocs.io/en/latest/?badge=latest)
+# Mikapod Soil (Arduino)
+[![Documentation Status](https://readthedocs.org/projects/mikapod-soil-arduino/badge/?version=latest)](https://mikapod-soil-arduino.readthedocs.io/en/latest/?badge=latest)
 
-## Introduction
-
-Mikapod Soil is an open-source application software used by IoT devices to track time-series data of soil-based plants and upload the data to [Mikaponics.com](https://mikaponics.com) where it will be analyed and processed for customers so they can know the health and well-being of their plants.
+Mikapod Soil (Arduino) is an open-source application, written for Arduino devices, to provide time-series data of soil-based sensors over serial communication to any device connected to it.
 
 ## Features
 
@@ -14,15 +12,21 @@ Mikapod Soil is an open-source application software used by IoT devices to track
     - Altitude
     - Illuminance
     - Soil Moisture
-* Stores time-series data in local database
-* Upload time-series data to [Mikaponics API Web-service](https://github.com/mikaponics/mikaponics-back).
-* Supports **OAuth 2.0 Client credentials** authorization and SSL communication
-* Supports **MessagePack** encoding format for more efficient bandwith and energy usage
+* Supports ``JSON`` formatted outputs
 * Powered by open-source hardware and software!
+
+## Screenshots
+
+![Soil Moisture](docs/img/hardware/solMoistureReal.jpg)
+The physical device
+
+![Soil Moisture](docs/img/hardware/serial_monitor_example.png)
+Example of serial data output from the device
+
 
 ## Installation
 
-Please read the [documentation](https://mikapod-soil.readthedocs.io/en/latest/) on instructions for installation.
+Please read the [documentation](https://mikapod-soil-arduino.readthedocs.io/en/latest/) on instructions for installation.
 
 ## License
 This application is licensed under the **BSD** license. See [LICENSE](LICENSE) for more information.
