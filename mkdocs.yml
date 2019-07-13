@@ -1,0 +1,8 @@
+site_name: Mikapod Soil (Arduino)
+nav:
+    - Home: index.md
+    - Architecture: architecture.md
+    - Hardware: parts.md
+    - Installation: installation.md
+    - Usage: usage.md
+theme: readthedocs

@@ -1,0 +1,4 @@
+Pyro4==4.75
+python-dotenv==0.10.2
+pytz==2019.1
+serpent==1.28
